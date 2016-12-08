@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<wallet>
+    <position id="0">
+        <name>gold</name>
+        <value>2000000</value>
+        <volatility>0.00553211774</volatility>
+        <eigenvalue>0.908</eigenvalue>
+        <eigenvector>
+            <elem id="0">0.687</elem>
+            <elem id="1">0.075</elem>
+            <elem id="2">-0.723</elem>
+        </eigenvector>
+    </position>
+
+    <position id="1">
+        <name>pound</name>
+        <value>3000000</value>
+        <volatility>0.00601238063</volatility>
+        <eigenvalue>1.123</eigenvalue>
+        <eigenvector>
+            <elem id="0">0.622</elem>
+            <elem id="1">0.453</elem>
+            <elem id="2">0.638</elem>
+        </eigenvector>
+    </position>
+
+    <position id="2">
+        <name>rand</name>
+        <value>1000000</value>
+        <volatility>0.01121083082</volatility>
+        <eigenvalue>0.969</eigenvalue>
+        <eigenvector>
+            <elem id="0">0.375</elem>
+            <elem id="1">-0.888</elem>
+            <elem id="2">0.265</elem>
+        </eigenvector>
+    </position>
+</wallet>

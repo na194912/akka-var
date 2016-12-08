@@ -4,7 +4,7 @@
 		module="akka-var_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20161113093322"
+		publication="20161208212422"
 	>
 		<description>
 		akka-var
@@ -36,5 +36,7 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.4.0" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-testkit_2.11" rev="2.4.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.commons" name="commons-lang3" rev="3.4" conf="compile->default(compile)"/>
+		<dependency org="uk.com.robust-it" name="cloning" rev="1.9.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -1,16 +1,18 @@
 import java.util.ArrayList;
 
-public class Position {
+class Position {
 
-    public String name;
-    public double value;
-    public double volatility;
-    public double eigenvalue;
-    public double[] eigenvector;
+    private String name;
+    private int id;
+    double value;
+    double volatility;
+    double eigenvalue;
+    double[] eigenvector;
     public ArrayList<Double> correlatedPriceChanges = null;
     public ArrayList<Double> dailyChanges = null;
 
-    public Position(String name, double value, double volatility, double eigenvalue, double[] eigenvector) {
+    Position(int id, String name, double value, double volatility, double eigenvalue, double[] eigenvector) {
+        this.id = id;
         this.name = name;
         this.value = value;
         this.volatility = volatility;
@@ -20,6 +22,18 @@ public class Position {
         correlatedPriceChanges = new ArrayList<>();
         dailyChanges = new ArrayList<>();
 
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public double getEigenvalue() {
+        return eigenvalue;
+    }
+
+    public double[] getEigenvector() {
+        return eigenvector;
     }
 
 }

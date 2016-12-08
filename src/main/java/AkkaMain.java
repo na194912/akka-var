@@ -5,20 +5,27 @@ import akka.actor.Props;
 
 public class AkkaMain {
 
-    public static Wallet wallet = new Wallet();
-    public static long startTime;
-    public static long actorSystemStarted;
-    public static int numberOfSimulations = 1000000;
-    public static int numberOfChildActors = 100;
+    static long actorSystemStarted;
+    static int numberOfSimulations;
+    static int numberOfChildActors;
 
     public static void main(String[] args) {
-        startTime = System.nanoTime();
+
+        String walletFileName = args[0];
+
+        String sNumberOfSimulations = args[1];
+        numberOfSimulations = Integer.parseInt(sNumberOfSimulations);
+
+        String sNumberOfChildActors = args[2];
+        numberOfChildActors = Integer.parseInt(sNumberOfChildActors);
 
 
+        WalletParser wp = new WalletParser(walletFileName);
+        Wallet wallet;
+        wallet = wp.parseWallet();
 
 
         final ActorSystem system = ActorSystem.create("Akka-Var-Calculation");
-
         final ActorRef akkaVarMaster = system.actorOf(Props.create(AkkaVarMaster.class), "akkaVarMaster");
 
         actorSystemStarted = System.nanoTime();
@@ -28,8 +35,7 @@ public class AkkaMain {
 
         akkaVarMaster.tell(wallet, ActorRef.noSender());
 
-
-
     }
+
 
 }

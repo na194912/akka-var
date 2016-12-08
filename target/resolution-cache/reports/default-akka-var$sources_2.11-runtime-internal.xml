@@ -7,8 +7,52 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161113093323"/>
+		date="20161208212431"/>
 	<dependencies>
+		<module organisation="uk.com.robust-it" name="cloning">
+			<revision name="1.9.2" status="release" pubdate="20150503212910" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://code.google.com/p/cloning/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3799" time="0" location="/home/mk/.ivy2/cache/uk.com.robust-it/cloning/ivy-1.9.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2.pom"/>
+				<caller organisation="default" name="akka-var$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.9.2" rev-constraint-default="1.9.2" rev-constraint-dynamic="1.9.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="cloning" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="14242" time="323" location="/home/mk/.ivy2/cache/uk.com.robust-it/cloning/srcs/cloning-1.9.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2-sources.jar"/>
+					</artifact>
+					<artifact name="cloning" type="jar" ext="jar" status="successful" details="" size="25346" time="218" location="/home/mk/.ivy2/cache/uk.com.robust-it/cloning/jars/cloning-1.9.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="2.1" status="release" pubdate="20131010232537" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://objenesis.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<metadata-artifact status="no" details="" size="3133" time="0" location="/home/mk/.ivy2/cache/org.objenesis/objenesis/ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.pom"/>
+				<caller organisation="default" name="akka-var$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="objenesis" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="44014" time="371" location="/home/mk/.ivy2/cache/org.objenesis/objenesis/srcs/objenesis-2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar"/>
+					</artifact>
+					<artifact name="objenesis" type="jar" ext="jar" status="no" details="" size="41755" time="0" location="/home/mk/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.4" status="release" pubdate="20150403083112" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11662" time="0" location="/home/mk/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.4.xml" searched="false" origin-is-local="true" origin-location="/home/mk/ad/repository/org.apache.commons/commons-lang3/3.4/ivys/ivy.xml"/>
+				<caller organisation="default" name="akka-var$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.4" rev-constraint-default="3.4" rev-constraint-dynamic="3.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="487156" time="0" location="/home/mk/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar"/>
+					</artifact>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="434678" time="0" location="/home/mk/ad/repository/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar">
+						<origin-location is-local="true" location="/home/mk/ad/repository/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.akka" name="akka-testkit_2.11">
 			<revision name="2.4.0" status="release" pubdate="20150930042446" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>

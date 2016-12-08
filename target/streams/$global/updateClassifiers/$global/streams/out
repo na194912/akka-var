@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@436f3f84
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7125ea0b
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -15,7 +15,7 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4cb97153
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26b7120
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.0
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->runtime]
@@ -23,7 +23,7 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.0 [compile->master]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a621ae6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fcf4499
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
 [debug] 	found com.typesafe#config;1.3.0 in sbt-chain
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->runtime]
@@ -31,12 +31,36 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-testkit_2.11;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@405993e7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12a15b
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.11;2.4.0
 [debug] 	found com.typesafe.akka#akka-testkit_2.11;2.4.0 in sbt-chain
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[info] Resolving org.apache.commons#commons-lang3;3.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@356d0c
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.4
+[debug] 	found org.apache.commons#commons-lang3;3.4 in sbt-chain
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->default(compile)]
+[info] Resolving uk.com.robust-it#cloning;1.9.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5482f4e
+[debug] sbt-chain: module revision found in cache: uk.com.robust-it#cloning;1.9.2
+[debug] 	found uk.com.robust-it#cloning;1.9.2 in sbt-chain
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->default(compile)]
+[info] Resolving org.objenesis#objenesis;2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@637df0df
+[debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;2.1
+[debug] 	found org.objenesis#objenesis;2.1 in sbt-chain
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [runtime]
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [compile]
@@ -56,6 +80,18 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->master]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
@@ -72,6 +108,18 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [test]
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [runtime]
@@ -92,6 +140,18 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->master]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
@@ -108,6 +168,18 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->master]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->default(compile)]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->compile]
@@ -124,6 +196,18 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [test->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [test->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [test->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [test->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [test->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [test->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [test->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -147,6 +231,18 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->master]
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [provided]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile-internal->default(compile)]
@@ -165,6 +261,18 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile-internal->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile-internal->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile-internal->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile-internal->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile-internal->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile-internal->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile-internal->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile-internal->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile-internal->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile-internal->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile-internal->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [runtime-internal]
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [runtime]
@@ -185,6 +293,18 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->master]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
@@ -201,6 +321,18 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->master]
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime-internal->default(compile)]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime-internal->runtime]
@@ -218,6 +350,18 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime-internal->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime-internal->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime-internal->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime-internal->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime-internal->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime-internal->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime-internal->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime-internal->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime-internal->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime-internal->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [test-internal]
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [test]
@@ -239,6 +383,18 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [compile->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->master]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->default(compile)]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [runtime->compile]
@@ -255,6 +411,18 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [runtime->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [runtime->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [runtime->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [runtime->master]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->default(compile)]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test->compile]
@@ -271,6 +439,18 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [test->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [test->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [test->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [test->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [test->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [test->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [test->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [test->master]
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [provided]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.scala-lang#scala-library;2.11.7 [test-internal->default(compile)]
@@ -289,6 +469,18 @@
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test-internal->runtime]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test-internal->compile]
 [debug] == resolving dependencies default#akka-var$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.4.0 [test-internal->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test-internal->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test-internal->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test-internal->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.apache.commons#commons-lang3;3.4 [test-internal->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [test-internal->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [test-internal->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [test-internal->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->uk.com.robust-it#cloning;1.9.2 [test-internal->master]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [test-internal->default(compile)]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [test-internal->runtime]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [test-internal->compile]
+[debug] == resolving dependencies default#akka-var$sources_2.11;1.0->org.objenesis#objenesis;2.1 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for default#akka-var$sources_2.11;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -354,12 +546,42 @@
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.4.0!akka-testkit_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.4.0!akka-testkit_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar
+[debug] 		tried /home/mk/.ivy2/local/uk.com.robust-it/cloning/1.9.2/srcs/cloning-sources.jar
+[debug] 		tried /home/mk/.ivy2/local/uk.com.robust-it/cloning/1.9.2/jars/cloning.jar
+[debug] 		tried /home/mk/.activator/repository/uk.com.robust-it/cloning/1.9.2/srcs/cloning-sources.jar
+[debug] 		tried /home/mk/.activator/repository/uk.com.robust-it/cloning/1.9.2/jars/cloning.jar
+[debug] 		tried /home/mk/ad/repository/uk.com.robust-it/cloning/1.9.2/srcs/cloning-sources.jar
+[debug] 		tried /home/mk/ad/repository/uk.com.robust-it/cloning/1.9.2/jars/cloning.jar
+[debug] 		tried https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2-sources.jar
+[info] downloading https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2-sources.jar
+[info] 	[SUCCESSFUL ] uk.com.robust-it#cloning;1.9.2!cloning.jar(src) (323ms)
+[debug] 		tried https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2.jar
+[info] downloading https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/uk/com/robust-it/cloning/1.9.2/cloning-1.9.2.jar
+[info] 	[SUCCESSFUL ] uk.com.robust-it#cloning;1.9.2!cloning.jar (218ms)
+[debug] 		tried /home/mk/.ivy2/local/org.objenesis/objenesis/2.1/srcs/objenesis-sources.jar
+[debug] 	[NOT REQUIRED] org.objenesis#objenesis;2.1!objenesis.jar
+[debug] 		tried /home/mk/.activator/repository/org.objenesis/objenesis/2.1/srcs/objenesis-sources.jar
+[debug] 		tried /home/mk/ad/repository/org.objenesis/objenesis/2.1/srcs/objenesis-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1-sources.jar
+[info] 	[SUCCESSFUL ] org.objenesis#objenesis;2.1!objenesis.jar(src) (371ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 211ms :: artifacts dl 38ms
+[debug] :: resolution report :: resolve 291ms :: artifacts dl 1000ms
 [debug] 	report for default#akka-var$sources_2.11;1.0 compile produced in /home/mk/akkapr0/akka-var/target/resolution-cache/reports/default-akka-var$sources_2.11-compile.xml
 [debug] 	report for default#akka-var$sources_2.11;1.0 runtime produced in /home/mk/akkapr0/akka-var/target/resolution-cache/reports/default-akka-var$sources_2.11-runtime.xml
 [debug] 	report for default#akka-var$sources_2.11;1.0 test produced in /home/mk/akkapr0/akka-var/target/resolution-cache/reports/default-akka-var$sources_2.11-test.xml
@@ -373,4 +595,4 @@
 [debug] 	report for default#akka-var$sources_2.11;1.0 docs produced in /home/mk/akkapr0/akka-var/target/resolution-cache/reports/default-akka-var$sources_2.11-docs.xml
 [debug] 	report for default#akka-var$sources_2.11;1.0 pom produced in /home/mk/akkapr0/akka-var/target/resolution-cache/reports/default-akka-var$sources_2.11-pom.xml
 [debug] 	report for default#akka-var$sources_2.11;1.0 scala-tool produced in /home/mk/akkapr0/akka-var/target/resolution-cache/reports/default-akka-var$sources_2.11-scala-tool.xml
-[debug] 	resolve done (211ms resolve - 38ms download)
+[debug] 	resolve done (291ms resolve - 1000ms download)

@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
 
-public class Pair {
-    public int childNr;
-    public ArrayList<Double> series;
+class Pair {
+    private int childNr;
+    ArrayList<Double> series;
 
     Pair(int childNr, ArrayList<Double> series) {
         this.childNr = childNr;

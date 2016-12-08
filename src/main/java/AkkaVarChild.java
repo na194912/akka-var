@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 
-public class AkkaVarChild extends UntypedActor {
+class AkkaVarChild extends UntypedActor {
 
-    public int myNumber;
-    public Wallet wallet = null;
+    private int myNumber;
+    private Wallet wallet = null;
 
     public void onReceive(Object message) {
 
@@ -31,8 +31,15 @@ public class AkkaVarChild extends UntypedActor {
 
                     for (int k = 0; k < listOfNormalSeries.size(); k++) {
 
-                        temp += listOfNormalSeries.get(k).get(i) * Math.sqrt(wallet.getPosition(k).eigenvalue) * wallet.getPosition(k).eigenvector[j];
+
+                        temp += listOfNormalSeries.get(k).get(i) *
+                                Math.sqrt(wallet.getPosition(k).getEigenvalue()) *
+                                (wallet.getPosition(k).getEigenvector())[j];
+
+
                     }
+
+
 
                     temp = temp * wallet.getPosition(j).volatility;
                     wallet.getPosition(j).correlatedPriceChanges.add(temp);
@@ -45,12 +52,15 @@ public class AkkaVarChild extends UntypedActor {
                                                     wallet.getPosition(2).dailyChanges.get(i));
             }
 
+
+
             Collections.sort(wallet.dailyChangesSums);
 
             Pair pDailyChangesSums = new Pair(myNumber, wallet.dailyChangesSums);
 
             getSender().tell(pDailyChangesSums, getSelf());
         }
+
 
         else {
             unhandled(message);

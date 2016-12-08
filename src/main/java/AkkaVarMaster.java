@@ -1,18 +1,18 @@
 import akka.actor.ActorRef;
 import akka.actor.Props;
 import akka.actor.UntypedActor;
-
+import com.rits.cloning.Cloner;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-public class AkkaVarMaster extends UntypedActor {
+class AkkaVarMaster extends UntypedActor {
 
-    public List<ActorRef> children = new ArrayList<>();
-    public Wallet wallet = null;
-    public int childrenCompletedCount = 0;
-    public ArrayList<Double> allChangesSums = new ArrayList<>();
+    private List<ActorRef> children = new ArrayList<>();
+    private Wallet wallet = null;
+    private int childrenCompletedCount = 0;
+    private ArrayList<Double> allChangesSums = new ArrayList<>();
 
     public AkkaVarMaster() {
 
@@ -29,7 +29,7 @@ public class AkkaVarMaster extends UntypedActor {
 
             wallet = (Wallet)message;
 
-            double howManyForChild = (double)AkkaMain.numberOfSimulations / (double)children.size();
+            double howManyForChild = (double) AkkaMain.numberOfSimulations / (double)children.size();
             int howManyForFirstChildren = (int)Math.ceil(howManyForChild);
             int howManyForLastChild = AkkaMain.numberOfSimulations - (children.size()-1) * howManyForFirstChildren;
 
@@ -37,7 +37,7 @@ public class AkkaVarMaster extends UntypedActor {
             for (int ch = 0; ch < children.size()-1; ch++) {
 
                 ArrayList<ArrayList<Double>> listOfNormalSeries = new ArrayList<>();
-                for (int p = 0; p < wallet.size; p++) {
+                for (int p = 0; p < wallet.getSize(); p++) {
                     ArrayList<Double> normalSeries = new ArrayList<>();
                     for (int i = 0; i < howManyForFirstChildren; i++) {
                         normalSeries.add(r.nextGaussian());
@@ -46,25 +46,33 @@ public class AkkaVarMaster extends UntypedActor {
                 }
 
 
-                Wallet walletCopy = new Wallet();
+                Cloner cloner = new Cloner();
+                Wallet walletClone =  cloner.deepClone(wallet);
+
+
+
 
                 children.get(ch).tell(new Integer(ch), getContext().self());
-                children.get(ch).tell(walletCopy, getContext().self());
+                children.get(ch).tell(walletClone, getContext().self());
                 children.get(ch).tell(listOfNormalSeries, getContext().self());
 
             }
 
-            ArrayList<ArrayList<Double>> szeregiNormalne = new ArrayList<>();
-            for (int p = 0; p < wallet.size; p++) {
-                ArrayList<Double> szeregNormalny = new ArrayList<>();
+            ArrayList<ArrayList<Double>> listOfNormalSeries = new ArrayList<>();
+            for (int p = 0; p < wallet.getSize(); p++) {
+                ArrayList<Double> normalSeries = new ArrayList<>();
                 for (int i = 0; i < howManyForLastChild; i++) {
-                    szeregNormalny.add(r.nextGaussian());
+                    normalSeries.add(r.nextGaussian());
                 }
-                szeregiNormalne.add(szeregNormalny);
+                listOfNormalSeries.add(normalSeries);
             }
+
+            Cloner cloner = new Cloner();
+            Wallet walletClone =  cloner.deepClone(wallet);
+
             children.get(children.size()-1).tell(new Integer(children.size()-1), getContext().self());
-            children.get(children.size()-1).tell((Wallet) message, getContext().self());
-            children.get(children.size()-1).tell(szeregiNormalne, getContext().self());
+            children.get(children.size()-1).tell(walletClone, getContext().self());
+            children.get(children.size()-1).tell(listOfNormalSeries, getContext().self());
 
 
 
